@@ -45,7 +45,7 @@ void handleNotFound() {
 void setup() {
   Serial.begin(115200);
   Wire.begin(0, 2);       // join i2c bus sda,scl
-  WiFi.begin("Erni", "ErNi2001");
+  WiFi.begin("xxxxx", "xxxxxxx");
   delay(10);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
